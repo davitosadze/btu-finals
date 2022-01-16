@@ -9,9 +9,9 @@
 
 ## How To Use
 Download and run commands:
-composer install
-php artisan migrate
-php artisan db:seed
+- composer install
+- php artisan migrate
+- php artisan db:seed
 ### Default User
 Email: user@quiz.ge
 Password: btu123
