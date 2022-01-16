@@ -13,8 +13,8 @@ Download and run commands:
 - php artisan migrate
 - php artisan db:seed
 ### Default User
-Email: user@quiz.ge
-Password: btu123
+- Email: user@quiz.ge
+- Password: btu123
 
 ## About Laravel
 
