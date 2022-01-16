@@ -1,0 +1,49 @@
+.hide {
+    display: none;
+}
+
+label.radio {
+    cursor: pointer
+}
+
+label.radio input {
+    padding:10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+}
+
+label.radio span {
+
+    border: 1px solid #28a745;
+    display: inline-block;
+    color: #28a745;
+    padding:10px;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 7px;
+    text-transform: uppercase
+}
+
+label.radio input:checked+span {
+    border-color: #28a745;
+    background-color: #28a745;
+    color: #fff
+}
+
+.ans {
+    display: inline-block;
+    font-size:20px;
+}
+
+.btn:focus {
+    outline: 0 !important;
+    box-shadow: none !important
+}
+
+.btn:active {
+    outline: 0 !important;
+    box-shadow: none !important
+}
